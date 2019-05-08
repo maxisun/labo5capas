@@ -13,7 +13,7 @@ import com.uca.capas.domain.Student;
 @Repository
 public class StudentDAOImpl implements StudentDAO{
 	
-	//@PersistenceContext(unitName="capas") es para un bean
+	//@PersistenceContext(unitName="capas") //es para un bean
 	@PersistenceContext(name="capas")
 	private EntityManager entityManager;
 

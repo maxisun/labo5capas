@@ -24,5 +24,10 @@
 				</tr>
 			</c:forEach>
 	</table>
+	<br>
+	<form action="${pageContext.request.contextPath}/findOne" method="post"> 
+		<label>Search: </label><input type="number" name="id"><br>
+		<input type="submit" value="Enviar">
+	</form>
 </body>
 </html>
